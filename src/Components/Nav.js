@@ -1,5 +1,5 @@
 import React from 'react';
-import logoImage from './assets/logo.png';
+
 
 // Define the CSS style as a variable
 const listStyle = {
@@ -13,7 +13,6 @@ const listStyle = {
 const Nav = () => {
     return (
         <nav className="container grid nav-bar">
-            <img src={logoImage} alt="Little Lemon logo" />
             <ul style={listStyle}> {/* Apply the CSS style using the variable */}
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
