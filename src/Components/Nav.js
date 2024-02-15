@@ -1,4 +1,5 @@
 import React from 'react';
+// import { Link } from "react-router-dom";
 
 
 // Define the CSS style as a variable
@@ -22,5 +23,6 @@ const Nav = () => {
         </nav>
     );
 };
-
 export default Nav;
+
+
