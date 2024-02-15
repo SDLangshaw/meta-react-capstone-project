@@ -1,7 +1,7 @@
 import './App.css';
-import Header from './Components/ Header';
-import Footer from './Components/Footer';
-import Main from './Components/Main';
+import Header from './Components/layout/ Header';
+import Footer from './Components/layout/Footer';
+
 
 
 function App() {
@@ -11,11 +11,6 @@ function App() {
       <hr />
       <h2>Header</h2>
       <Header />
-    
-      <hr />
-      <br />
-      <h2>Main</h2> 
-      <Main />
       <hr />
       <br />
       <h2>Footer</h2>
