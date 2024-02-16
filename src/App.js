@@ -3,12 +3,12 @@ import {
   Routes
 } from 'react-router-dom';
 import pages from './utils/pages';
-import Layout from './components/layout/Layout';
-import Home from './components/pages/Home';
-import Bookings from './components/pages/Bookings';
-import ConfirmedBooking from './components/pages/Bookings/ConfirmedBooking';
-import NotFound from './components/pages/NotFound';
-import UnderConstruction from './components/pages/UnderConstruction';
+import Layout from './Components/layout/Layout';
+import Home from './Components/pages/Home/index';
+import Bookings from './Components/pages/Bookings/BookingForm';
+import ConfirmedBooking from './Components/pages/Bookings/ConfirmedBooking';
+import NotFound from './Components/pages/NotFound/index';
+import UnderConstruction from './Components/pages/UnderConstruction/index';
 
 const App = () => {
   return (
